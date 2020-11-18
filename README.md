@@ -22,7 +22,21 @@ Projecto final Simulación: Librería Ateneo
 ## Descripción
 
 Este proyecto es parte del curso de modelación y simulación. 
-La temática es de simular algo de interés. Y q
+El objetivo es simular la vida laboral de Michael.
+Un librero que trabaja en la mejor librería del mundo: Ateneo Grand Splendid en Buenos Aires.
+Él se encarga TODOS los días de ingresar libros en el sistema. Entre ellos, libros que se venden, libros alquilados y los propios claro. 
+Michael calcula que en promedio, ingresa unos 20 libros al sistema por día. Ya que es un proceso super engorroso. También,  retorna de las mesas donde la gente lee un promedio de 50 libros al día. Y los que vende ascienden a unos 30. 
+A veces, él quisiera vacaciones y piensa: "Ojalá supiera que tanto trabajo habrá en promedio para saber cuándo tomármelas". 
+
+El proyecto, se trata de simular un día de Michael en el tiempo y calcular su mejor día de vacaciones. El periodo de tiempo es de 1 jornada laboral, es decir 1 día para cada iteración. Para cada situación se tomarán los siguientes valores.
+
+* Venta de libros, **MU de 30**.
+* Retorno de libros de mesas, **MU de 50**
+* Ingreso de libros al sistema, **MU de 20**
+
+Se realizarán simulaciones para las tres variables, a sabiendas de:
+* Son eventos independientes ya que no influye si compran más, o menos que si alquilan más o menos que si ingresa más o menos. 
+* Los tres experimentos mantienen el mismo margen de tiempo: 1 día equivale a 1 iteración. 
 
 ### Lista de herramientas y teoría:
 
@@ -35,7 +49,12 @@ La temática es de simular algo de interés. Y q
 
 ### Archivos y distribución del proyecto
 
-- `simulacion.py`
-  - Contiene todos los ejemplos de gráficos y de la simulación.
 - `Proyecto.ipynb` THE LOGIC
-  -  Es el jupyter notebook donde está la explicación de la simulación.
+  -  Es el jupyter notebook donde está la explicación de la simulación, resultados y gráficas.
+
+
+### Referencias
+* https://gist.github.com/sachinsdate/d48abefe2f75541c7d98f51599c927b0#file-poisson_sim-py
+* https://www.w3schools.com/python/numpy_random_poisson.asp
+* https://www.tutorialspoint.com/python_data_science/python_poisson_distribution.html
+* https://stackoverflow.com/questions/17192158/nameerror-global-name-xrange-is-not-defined-in-python-3
