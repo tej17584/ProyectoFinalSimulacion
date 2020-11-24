@@ -3,7 +3,7 @@
   <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/bookstore-buenosaires-argentina.jpg?w=1900&h=1267" alt="UkronTadd" width="664"> 
 <br>
 <br>
-Projecto final Simulación: Librería Ateneo
+Proyecto final Simulación: Librería Ateneo
 </h1>
     
 <p align="center">
